@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding: 11px 0px;
+  height: 20px;
+  vertical-align: middle;
+  font-size: 16px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+  vertical-align: middle;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.top-left {
+  float: left;
+  padding: 0px 10px;
+}
+
+.heart {
+  padding-right: 10px;
+}
+
+header {
+  background-color: rgb(32, 101, 136);
+  background-image: url("/home/alvaro/ironhack/Prueba1/NPM clone prework/lab-html-module-exercise-master/starter-code/images/city-scape.svg");
+  background-size: cover;
+  color: white;
+  Height: 430px;
+}
+
+.header-buscador {
+  height: 100px;
+  width: auto;
+  margin: 0 auto;
+}
+
+.buscador {
+  padding: 24px 10px;
+  float: left;
+  height: 45px;
+  width: auto;
+}
+
+.search {
+  background-color: rgb(31, 82, 111);
+  width: 900px;
+  height: 45px;
+  border: none;
+  float: left;
+  border: rgba(255, 82, 111, 0.5);
+}
+
+.logo {
+  width: 120px;
+  padding: 24px 20px;
+  height: 50px;
+  float: left;
+}
+
+.sign-up {
+  padding: 34px 20px;
+  float: left;
+  text-decoration: none;
+  text-align: center;
+}
+
+.sign {
+  text-decoration: none;
+  color: white;
+}
+
+.sign-up {
+  float: left;
+}
+
+.header-text {
+  width: 70%;
+  margin: 0 auto;
+  }
+
+.header-img {
+  float: right;
+  height: 250px;
+  margin: 0 20px 20px 0;
+  padding: 10px;
+  width: 400px;
+}
+
+.parrafo-header {
+  padding: 15px 0px;
+  font-size: 18px;
+  padding-bottom: 35px;
+}
+
+.header-btn {
+  background-color: rgb(240, 146, 51);
+  text-align: center;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin: 50px 0 0px;
+  padding: 10px 40px;
+  width: 40%;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+
+#primera-seccion {
+  background-color: rgb(39, 53, 71);
+  color: white;
+  Height: 300px;
+  padding: 60px 0px;
+}
+
+.first-section {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.team-img {
+  float: left;
+  height: 250px;
+  margin: 0 20px 20px 0;
+  padding: 10px 15px 10px 0px;
+  width: 400px;
+}
+
+.collaboration {
+  padding: 10px 15px 10px 15px;
+}
+
+.collaboration-ul {
+  padding: 10px 16px 25px;
+}
+
+.first-text {
+  padding-left: 450px;
+}
+
+.sign-up-orgs {
+  background-color: rgb(203, 56, 55);
+  text-align: center;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin: 50px 0 0px 0px;
+  padding: 10px 40px;
+  width: 40%;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+
+.learn-more-orgs {
+  color: white;
+  text-decoration: none;
+}
+
+#segunda-seccion {
+  background-image: url("/home/alvaro/ironhack/Prueba1/NPM clone prework/lab-html-module-exercise-master/starter-code/images/forklift.svg");
+  background-size: cover;
+  color: white;
+  Height: 300px;
+  padding: 60px 0px;
+  position: relative;
+}
+
+.segunda-texto {
+  width: 70%;
+  margin: 0 auto;
+  padding: 30px;
+  position: absolute;
+  left: 200px;
+}
+
+.install-npm {
+  background-color: rgb(49, 68, 88);
+  text-align: center;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin: 10px 0 0px 200px;
+  padding: 10px 40px;
+  width: 40%;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  position: relative;
+}
+
+.boton-install {
+  margin: 150px 0px 0px 30px;
+}
+
+#tercera-seccion {
+  background-color: white
+  color: black;
+  Height: 300px;
+  padding: 60px 0px;
+}
+
+.tercer-section {
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header-seccion {
+  color: rgb(83, 88, 98);
+}
+
+.header-parrafo {
+  color: rgb(135, 145, 156);
+}
+
+.apartados {
+  padding-top: 50px;
+  text-align: center;
+  color: rgb(135, 145, 156);
+}
+
+.col {
+  float: left;
+}
+
+.col-3 {
+  width: 33%;
+}
+
+.parrafo {
+  color: rgb(135, 145, 156);
+  text-align: center;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 20px;
+  width: 33%
+}
+
+.enl {
+  color: rgb(208, 74, 73);
+  text-decoration: none;
+}
